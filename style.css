@@ -120,6 +120,16 @@ body {
   color: #fff;
 }
 
+.btn-reserve {
+  background-color: #8b80f9;
+  color: #ffffff !important;
+}
+
+.btn-reserve:hover {
+  background-color: #6f63f7;
+}
+
+
 /* =====================
    QUICK STATS
 ===================== */
@@ -367,5 +377,6 @@ footer {
     gap: 10px;
   }
 }
+
 
 
