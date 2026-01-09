@@ -70,7 +70,7 @@ body {
   min-height: 92vh;
   background:
     linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
-    url('assets/background.jpg') center/cover no-repeat;
+    url('assets/background.jpg')center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -367,4 +367,5 @@ footer {
     gap: 10px;
   }
 }
+
 
