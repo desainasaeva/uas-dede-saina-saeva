@@ -378,5 +378,110 @@ footer {
   }
 }
 
+/* ========================= */
+/* RESERVATION PAGE STYLE */
+/* ========================= */
+
+.reservation-page {
+  padding: 100px 20px 60px;
+  background: #f9f8ff;
+  min-height: 100vh;
+}
+
+.reservation-container {
+  max-width: 600px;
+  margin: auto;
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.reservation-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4a3fbf;
+}
+
+/* Form label */
+.reservation-container label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Input, select, textarea */
+.reservation-container input,
+.reservation-container select,
+.reservation-container textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* Focus effect */
+.reservation-container input:focus,
+.reservation-container select:focus,
+.reservation-container textarea:focus {
+  border-color: #8b80f9;
+  box-shadow: 0 0 0 2px rgba(139,128,249,0.2);
+}
+
+/* Checkbox area */
+.check-area {
+  margin-top: 15px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+/* Submit button */
+.reservation-container button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background: #8b80f9;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.reservation-container button:hover {
+  background: #6f63f7;
+}
+
+/* FAQ */
+.faq {
+  margin-top: 40px;
+}
+
+.faq h3 {
+  margin-bottom: 10px;
+  color: #4a3fbf;
+}
+
+.faq p {
+  background: #f2f0ff;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .reservation-container {
+    padding: 25px;
+  }
+}
+
 
 
